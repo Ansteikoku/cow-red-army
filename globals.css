@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(circle at top, #3a0000, #0d0000);
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
